@@ -75,7 +75,15 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     "power": "Level 1 (1.6 kW)",
     "weekday_mileage": 97,
     "weekend_mileage": 25
-  }]
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {}]
 
 ```
 > Data.json contains data of 10 cars.
