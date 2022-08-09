@@ -19,12 +19,11 @@ class carsController {
   }
 
   getModelData(req, res) {
-    const make = req.params.maker;
     const json = helper.getJson("success", "null", []);
-    data.forEach((modelData) => {
-      if (modelData["make"] == make) {
-        delete modelData["make"];
-        json.data.push({ modelData });
+    let maker = req.params.maker;
+    data.forEach((carData) => {
+      if (carData["make"] == maker) {
+        json.data.push(carData);
       }
     });
     return json;
