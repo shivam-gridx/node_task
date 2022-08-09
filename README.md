@@ -147,33 +147,36 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 > Eg:  http://localhost:8000/cars/Ford/modelData
 ```json
 {
-"status": "success",
-"message": "null",
-"data": [
-    {
-      "model": "F-Series",
-      "year": 1993,
-      "power": "Level 1 (1.6 kW)",
-      "weekday_mileage": 97,
-      "weekend_mileage": 25,
-      "start_time": "8:08"
-    },
-    {
-      "model": "F150",
-      "year": 2003,
-      "power": "Level 1 (1.6 kW)",
-      "weekday_mileage": 41,
-      "weekend_mileage": 38,
-      "start_time": "23:22"
-    },
-    {
-      "model": "Taurus",
-      "year": 1989,
-      "power": "Level 1 (1.6 kW)",
-      "weekday_mileage": 69,
-      "weekend_mileage": 67,
-      "start_time": "5:10"
-    }
+  "status": "success",
+  "message": "null",
+  "data": [
+      {
+        "make": "Ford",
+        "model": "F-Series",
+        "year": 1993,
+        "power": "Level 1 (1.6 kW)",
+        "weekday_mileage": 97,
+        "weekend_mileage": 25,
+        "start_time": "8:08"
+      },
+      {
+        "make": "Ford",
+        "model": "F150",
+        "year": 2003,
+        "power": "Level 1 (1.6 kW)",
+        "weekday_mileage": 41,
+        "weekend_mileage": 38,
+        "start_time": "23:22"
+      },
+      {
+        "make": "Ford",
+        "model": "Taurus",
+        "year": 1989,
+        "power": "Level 1 (1.6 kW)",
+        "weekday_mileage": 69,
+        "weekend_mileage": 67,
+        "start_time": "5:10"
+      }
   ]
 }
 ```
